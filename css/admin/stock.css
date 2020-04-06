@@ -1,0 +1,59 @@
+body{
+    background-color: #eee;
+}
+
+form input[type=text], form input[type=number], form input[type=password]{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: "AllerRg";
+}
+
+form input[type=text]:focus, form input[type=number]:focus, form input[type=number]:focus, form input[type=password]:focus{
+    background-color: #fff;
+    border: 1px solid lightskyblue;
+    box-shadow: 0px 2px 3px lightskyblue;
+}
+
+form input[type=number], form input[type=password]{
+    padding: 10px 15px;
+    width: 100%;
+}
+
+form input[type=submit]{
+    width: 100%;
+    background-color: darkblue;
+    color: #fff;
+    font-family: "AllerRg";
+}
+
+form input[type=submit]:hover{
+    transform: none;
+}
+
+form input[type=submit]:active{
+    transform: scale(0.95);
+    background-color: #0a1d3a;
+}
+
+#load{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+}
+
+#progress{
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(31, 118, 248);
+    animation-name: progress;
+    animation-fill-mode: forwards;
+    animation-duration: 2.8s;
+}
+
+@keyframes progress{
+    0%{left:-100%; width: 1%;}
+    50%{left:100%; background-color: rgb(31, 248, 140);}
+    100%{left: -100%; width: 100%;}
+}

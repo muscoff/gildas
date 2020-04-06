@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Point of Sale</title>
+    <style>
+        .border{
+            border: 2px dashed #ccc;
+            cursor: pointer;
+            transition: all 1s ease-in;
+            font-family: "AllerRg";
+        }
+        .border:hover{
+            border: 1px dashed #fff;
+            transform: translateY(1px);
+        }
+
+        .border:active{
+            transform: scale(0.75);
+        }
+    </style>
+</head>
+<body>
+    <div class="width-100 height-100 black-bg white-text flex-column justify-content-center align-items-center">
+        <div class="uppercase font-70 font-allerBd">gildas</div>
+        <div class="capitalize font-allerRg">point of sale system</div>
+        <div class="width-100 height-2"></div>
+        <div class="width-10 width-l-20 width-m-30 width-s-50 height-8 flex-column justify-content-center align-items-center border">Enter</div>
+    </div>
+
+    <script>
+        document.querySelector('.border').addEventListener('click', e=>{
+            window.location = './users/';
+        });
+    </script>
+</body>
+</html>
