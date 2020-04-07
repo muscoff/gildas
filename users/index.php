@@ -16,7 +16,7 @@ $msg = isset($_GET['msg']) ? $_GET['msg'] : null;
 </head>
 <body>
     <div class="width-100 height-100 flex-column align-items-center">
-        <div class="width-30 loginForm">
+        <div class="width-30 width-lx-60 width-l-70 width-m-90 width-s-100 loginForm">
             
             <div class="width-90 margin-auto">
                 <div class="admin-title">User Login</div>
