@@ -24,14 +24,14 @@ if(isset($_SESSION['admin'])){
     <div class="width-10 height-10"></div>
 
     <!-- menu-options -->
-    <div class="width-80 white-bg menu-options width-lx-50 width-l-60 width-m-80 width-s-100 min-height-30 padding-all-10">
+    <div class="width-80 white-bg menu-options width-lx-90 width-l-60 width-m-80 width-s-100 min-height-30 padding-all-10">
         <div class="optionTitle uppercase">
             <div style="color:rgb(94, 128, 160);"><i class="fas fa-coins"></i> Accounting - Sales Point</div>
         </div>
         <div class="width-100 height-5"></div>
 
         <div class="row">
-            <div class="col-6 col-s-12 padding-all-10">
+            <div class="col-6 col-l-12 col-m-12 col-s-12 padding-all-10">
                 <div class="width-100 min-height-50 shadow1">
                     <div class="heading">Please key in the barcode and quantity to add product to cart</div> <br />
                     
@@ -62,7 +62,7 @@ if(isset($_SESSION['admin'])){
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-s-12 padding-all-10">
+            <div class="col-6 col-l-12 col-m-12 col-s-12 padding-all-10">
                 <div class="width-100 min-height-30 shadow2">
                     <div class="cartHeading">cart items</div>
                     <div class="width-100 height-3"></div>

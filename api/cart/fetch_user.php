@@ -12,7 +12,7 @@ include_once $_SERVER['DOCUMENT_ROOT']."/gildas/models/Cart.php";
 $pagination = array();
 
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
-$role = isset($_GET['role']) ? $_GET['role'] : die('dick');
+$role = isset($_GET['role']) ? $_GET['role'] : die('..');
 
 // End of Pagination definitions
 
